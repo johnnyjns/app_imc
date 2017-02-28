@@ -2,10 +2,32 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8">
-    <link href="/css/main.css">
+    <link href="css/main.css">
+    <script src="js/main.js"></script>
     <title>Calcular IMC</title>
   </head>
   <body>
+
+    <form name="imcForm" id="imcForm" action="#">
+    <p>
+    Altura<br />
+    <input type="text" id="altura" name="altura" />
+    </p>
+    <p>Peso <br />
+    <input type="text" id="peso" name="peso" />
+    </p>
+    <p>
+    <label>
+    <input type="radio" name="sexo" value="opção" id="sexo_0" />
+    Masculino</label>
+    <br />
+    <label>
+    <input type="radio" name="sexo" value="opção" id="sexo_1" />
+    Feminino</label>
+    </p>
+    <p><input name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()" />
+    </p>
+    </form>
 
   </body>
 </html>

@@ -2,7 +2,7 @@
   "name": "app_imc",
   "version": "1.0.0",
   "description": "App para calcular o IMC.",
-  "main": "main.js",
+  "main": "./src/js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +27,7 @@
     "grunt-contrib-requirejs": "^1.0.0",
     "grunt-contrib-uglify": "^2.1.0",
     "grunt-tinyimg": "^1.0.0",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
   }
 }
